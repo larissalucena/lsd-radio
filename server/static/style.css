@@ -1,0 +1,183 @@
+/* CSS Document */
+
+body {
+	margin:0px;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+}
+
+a {
+	border: none;
+	text-decoration: none;
+}
+
+.clearfix {
+	display: block;
+}
+
+.container {
+	position:relative;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+#header {
+	text-align: center;
+}
+
+#main {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#player-toolbar {
+	margin-top: 10px;
+}
+
+#player-toolbar ul {
+	list-style: none;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+#player-toolbar li {
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+}
+
+#vote-form {
+	text-align:center;
+	position:relative;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	width: 400px;
+}
+
+#vote-form label{
+	text-align:center;
+	font-size: 40px;
+	color: black;
+}
+
+#vote-form textarea {
+	width: 400px;
+	padding: 5px;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 0px 1px 0px #fff;
+	outline: none;
+	background: -webkit-gradient(linear, left top, left bottom, from(#bcbcbe), to(#ffffff));
+	background: -moz-linear-gradient(top,  #bcbcbe,  #ffffff);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #717171;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+#vote-form input:focus {
+	-webkit-box-shadow: 0px 0px 5px #dd137d;
+	-moz-box-shadow: 0px 0px 5px #dd137d;
+	box-shadow: 0px 0px 5px #dd137d;
+}
+
+#vote-form button {
+	width:125px;
+	height:35px;
+	color:#333333;
+	font-size:11px;
+	font-weight:bold;
+	margin-top: 10px;
+	font-size: large;
+}
+
+#footer {
+	margin: 0px auto;
+	padding: 20px 0px;
+	text-align: center;
+}
+
+#footer a {
+	display: inline-table;
+	padding: 10px;
+}
+
+#lsd-logo:hover {
+    background-image: url('img/lsd.png');
+}
+
+#lsd-logo {
+    background-image: url('img/lsd_g.png');
+    width:108px;
+    height:73px;
+}
+
+#beefs-logo:hover {
+    background-image: url('img/beefs.png');
+}
+
+#beefs-logo {
+    background-image: url('img/beefs_g.png');
+    width:95px;
+    height:73px;
+}
+
+#github-logo:hover {
+    background-image: url('img/github_logo.png');
+}
+
+#github-logo {
+    background-image: url('img/github_logo_g.png');
+    width:73px;
+    height:73px;
+}
+
+#acapela-logo:hover {
+    background-image: url('img/acapela.png');
+}
+
+#acapela-logo {
+    background-image: url('img/acapela_g.png');
+    width:85px;
+    height:73px;
+}
+
+#icecast-logo:hover {
+    background-image: url('img/icecast.png');
+}
+
+#icecast-logo {
+    background-image: url('img/icecast_g.png');
+    width:70px;
+    height:73px;
+}
+
+#html5-logo:hover {
+    background-image: url('img/html5.png');
+}
+
+#html5-logo {
+    background-image: url('img/html5_g.png');
+    width:73px;
+    height:73px;
+}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.rad {display:inline-block;}
+input[type=radio] {width:50px; text-align:center;height:20px;}
+label {display:block; text-align:center; color:white;}
